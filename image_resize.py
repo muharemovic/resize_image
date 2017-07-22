@@ -16,7 +16,7 @@ class Foto():
         self.small = Radiobutton(gui, text="Small (800 x 600)      ", variable=self.var1,value = 1, bg ='#FF5733',font=("Ubuntu", 18) ).place( x=20, y=10 + 4 * 10, width=320, height=40)
         self.medium = Radiobutton(gui, text="Medium(1024 x 768)", variable=self.var1,value = 2, bg ='#7FB3D5',font=("Ubuntu", 18) ).place(x=20, y=10 + 4 * 30, width=320, height=40)
         self.large = Radiobutton(gui, text="Large(1920 x 1080)", variable=self.var1,value = 3,  bg ='#17A589',font=("Ubuntu", 18) ).place(x=20, y=10 + 4 * 50, width=320, height=40)
-        self.costum = Radiobutton(gui, text="Costum                 X           ", variable=self.var1,value = 4, bg ='#FDEBD0',font=("Ubuntu", 18)).place(x=20, y=10 + 4 * 70, width=370, height=40)
+        self.costum = Radiobutton(gui, text="Custum                 X           ", variable=self.var1,value = 4, bg ='#FDEBD0',font=("Ubuntu", 18)).place(x=20, y=10 + 4 * 70, width=370, height=40)
         self.e = StringVar()
         self.ent= Entry(gui, width=50, font=("Ubuntu", 18),textvariable = self.e).place(x=200, y=15 + 4 * 70, width=70, height=30)
         self.c = StringVar()
